@@ -21,8 +21,8 @@
   &:focus-visible {
     outline: 1px solid map-get($colors, 'accent-text-color');
   }
-  &:hover ~ .form-icons,
-  &:focus ~ .form-icons {
+  &:hover ~ .modal__form-icons,
+  &:focus ~ .modal__form-icons {
     fill: #2196f3;
   }
 }

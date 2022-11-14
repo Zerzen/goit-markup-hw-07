@@ -26,6 +26,7 @@ li {
   box-sizing: inherit;
 }
 body {
+  font-family: 'Roboto';
   background-color: #ffffff;
   color: map-get($colors, 'primary-text-color');
   letter-spacing: 0.03em;

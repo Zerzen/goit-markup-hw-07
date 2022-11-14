@@ -11,7 +11,7 @@
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: map-get($colors, 'accent-text-color');
+  color: map-get($colors, 'accent-praimery-white-color');
 }
 
 .mailing-input {
@@ -25,7 +25,7 @@
   background-color: map-get($colors, 'bcg-color-accent');
   color: map-get($colors, 'accent-praimery-white-color');
   &:focus {
-    color: map-get($colors, 'accent-text-color');
+    color: map-get($colors, 'accent-praimery-white-color');
   }
 }
 
